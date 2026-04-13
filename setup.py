@@ -12,9 +12,10 @@ setup(
     long_description_content_type="text/markdown",
     author="Ziqi Fan",
     author_email="fanziqi614@gmail.com",
-    url="https://github.com/fan-ziqi/stl_compressor",
+    url="https://github.com/pinkfish/stl_compressor",
     install_requires=[
-        "open3d",
+        "trimesh",
+        "open3d"
     ],
     license="Apache License 2.0",
     packages=find_packages(),
